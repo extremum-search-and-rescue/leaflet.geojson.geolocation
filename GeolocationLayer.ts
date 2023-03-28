@@ -121,7 +121,7 @@ namespace L {
         }
     }
 
-    export function geolocationLayer (url: string, options: L.GeolocationMarkerOptions){
+    export function geolocationLayer(url: string, options: L.GeoJsonLayerOptions){
         return new L.GeolocationLayer(url, options);
     }
  }
